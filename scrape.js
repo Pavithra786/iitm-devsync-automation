@@ -1,6 +1,7 @@
 const { chromium } = require('playwright');
 
-const SEEDS = [33, 34, 35, 36, 37, 38, 39, 40, 41, 42];
+const SEEDS = [25,26,27,28,29,30,31,32,33,34]
+//const SEEDS = [33, 34, 35, 36, 37, 38, 39, 40, 41, 42];
 const BASE_URL = 'https://sanand0.github.io/tdsdata/js_table/?seed=';
 
 async function scrapeTable(page, seed) {
